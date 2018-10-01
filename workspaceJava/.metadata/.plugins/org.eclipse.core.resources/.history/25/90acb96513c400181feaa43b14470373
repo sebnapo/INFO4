@@ -1,0 +1,65 @@
+package DesignPattern.tpVisiteur.etudiant;
+
+public class VisitorCodeGenerator extends Visitor {
+
+	@Override
+	void visit(BinExpression bex) {
+		// TODO Auto-generated method stub
+		bex.getLhs().accept(this);
+		System.out.println(bex.getOperator());
+		bex.getRhs().accept(this);
+		System.out.println(bex.getLhs() + " " + bex.getOperator() + " " + bex.getRhs());
+	}
+
+	@Override
+	void visit(Integer in) {
+		// TODO Auto-generated method stub
+		System.out.println(  "Integer value : "+in.getValue());
+	}
+
+	@Override
+	void visit(Block bl) {
+		// TODO Auto-generated method stub
+		for(Statement st : bl.getS()) {
+			st.accept(this);
+		}
+	}
+
+	@Override
+	void visit(Print pr) {
+		// TODO Auto-generated method stub
+		System.out.println(pr.getPrint());
+	}
+
+	@Override
+	void visit(Read rd) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(Assignment ass) {
+		// TODO Auto-generated method stub
+		ass.getVar().accept(this);
+		ass.getRhs().accept(this);
+	}
+
+	@Override
+	void visit(Conditional cond) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(While wh) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(VariableRef variableRef) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

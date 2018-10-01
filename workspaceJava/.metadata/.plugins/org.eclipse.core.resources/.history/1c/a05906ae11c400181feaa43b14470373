@@ -1,0 +1,59 @@
+package DesignPattern.tpVisiteur.etudiant;
+
+public class VisitorCodeGenerator extends Visitor {
+
+	@Override
+	void visit(BinExpression bex) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(Integer in) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(Block bl) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(Print pr) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(Read rd) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(Assignment ass) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(Conditional cond) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(While wh) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(VariableRef variableRef) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

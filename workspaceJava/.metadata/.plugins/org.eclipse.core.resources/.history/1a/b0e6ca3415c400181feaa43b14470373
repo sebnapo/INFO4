@@ -1,0 +1,5 @@
+package DesignPattern.tpDecorateur;
+
+public abstract class Decorateur {
+
+}

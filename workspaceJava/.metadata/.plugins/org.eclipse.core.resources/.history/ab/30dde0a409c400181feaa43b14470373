@@ -1,0 +1,5 @@
+package DesignPattern.tpVisiteur.etudiant;
+
+public class VisitorCodeGenerator {
+
+}

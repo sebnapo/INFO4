@@ -1,0 +1,13 @@
+package DesignPattern.tpVisiteur.etudiant;
+
+public class Conditional extends Statement {
+
+	private Expression cond;
+	private Block thenPart,elsePart;
+	@Override
+	void accept(Visitor v) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

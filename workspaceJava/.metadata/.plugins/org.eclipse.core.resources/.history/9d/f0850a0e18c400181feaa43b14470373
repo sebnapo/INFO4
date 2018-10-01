@@ -1,0 +1,8 @@
+package DesignPattern.tpDecorateur;
+
+public class DecorateurRemove extends DecorateurArrayList {
+	
+	public boolean remove(Object o) {
+		return false;
+	}
+}

@@ -1,0 +1,42 @@
+package DesignPattern.tpVisiteur.etudiant;
+
+public class VisitorStats extends Visitor {
+
+	private int cptAssign,condit,print,read,whil = 0;
+	@Override
+	void visit(BinExpression bex) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(Integer in) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(Statement st) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(Block bl) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(Print pr) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void visit(Read rd) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

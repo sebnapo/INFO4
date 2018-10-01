@@ -1,0 +1,11 @@
+package DesignPattern.tpDecorateur;
+
+public class DecorateurRemove extends DecorateurArrayList {
+	
+	public boolean remove(Object o) {
+		System.out.println("Impossible de supprimer un objet.");
+		return false;
+	}
+	
+	public 
+}

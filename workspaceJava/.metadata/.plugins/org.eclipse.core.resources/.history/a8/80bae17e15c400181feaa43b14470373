@@ -1,0 +1,10 @@
+package DesignPattern.tpDecorateur;
+
+import java.util.List;
+
+public abstract class Decorateur implements List {
+	private List list;
+	public abstract boolean add(Object o);
+	public abstract boolean remove(Object o);
+	public abstract boolean addAll(Collection c);
+}

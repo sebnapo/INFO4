@@ -1,0 +1,10 @@
+package DesignPattern.tpDecorateur;
+
+public class DecorateurNbElement extends DecorateurArrayList {
+	public DecorateurNbElement(int tailleMax) {
+		
+	}
+	public boolean add(Object o) {
+		
+	}
+}
