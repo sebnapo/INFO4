@@ -1,0 +1,13 @@
+package DesignPattern.tpFabriqueAbstraite;
+
+public interface GentilFactory extends GameFactory {
+	public GentilFactory() {
+		
+	}
+	
+	public Batman createBatman() {
+		return null;
+	}
+	
+	
+}

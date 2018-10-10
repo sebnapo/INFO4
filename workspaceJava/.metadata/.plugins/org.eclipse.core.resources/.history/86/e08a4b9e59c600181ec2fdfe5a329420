@@ -1,0 +1,11 @@
+package DesignPattern.tpFabriqueAbstraite;
+
+public class CryptonMan implements Mechant {
+
+	@Override
+	public void seBattre() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

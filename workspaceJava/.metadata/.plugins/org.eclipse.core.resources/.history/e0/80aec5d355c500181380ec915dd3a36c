@@ -1,0 +1,6 @@
+package DesignPatter.tpEtat;
+
+public interface EtatMachine {
+	public MachineTuring machine;
+	public void lireChar(String test);
+}

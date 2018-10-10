@@ -1,0 +1,10 @@
+package DesignPatter.tpEtat;
+
+public class MachineTuring {
+
+	private String stringEntre;
+	
+	public MachineTuring(String stringEntre) {
+		this.stringEntre = stringEntre;
+	}
+}

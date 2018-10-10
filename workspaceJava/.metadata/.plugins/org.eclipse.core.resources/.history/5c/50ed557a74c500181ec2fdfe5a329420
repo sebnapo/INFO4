@@ -1,0 +1,5 @@
+package DesignPattern.tpFabriqueAbstraite;
+
+public class Batman extends Gentil{
+
+}

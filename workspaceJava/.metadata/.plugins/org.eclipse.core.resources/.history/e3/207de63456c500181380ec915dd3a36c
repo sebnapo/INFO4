@@ -1,0 +1,15 @@
+package DesignPatter.tpEtat;
+
+public class MachineTuring {
+
+	private String stringEntre;
+	private EtatMachine state = new Etat1(this);
+	
+	public MachineTuring(String stringEntre) {
+		this.stringEntre = stringEntre;
+	}
+	
+	public void setState(EtatMachine etat) {
+		this.state = etat;
+	}
+}

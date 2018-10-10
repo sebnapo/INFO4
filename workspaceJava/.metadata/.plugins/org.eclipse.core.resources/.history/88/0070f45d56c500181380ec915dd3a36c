@@ -1,0 +1,11 @@
+package DesignPatter.tpEtat;
+
+public class Etat2 implements EtatMachine {
+
+	@Override
+	public void lireChar(String test) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

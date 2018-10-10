@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="DesignPattern.tpDecorateur.DecorateurNbElement"/>
+<fullyQualifiedTypeName name="DesignPattern.tpDecorateur.DecorateurRemove"/>
+<fullyQualifiedTypeName name="DesignPatter.tpEtat.Etat1"/>
+<fullyQualifiedTypeName name="DesignPatter.tpEtat.EtatMachine"/>
+<fullyQualifiedTypeName name="DesignPatter.tpEtat.Etat2"/>
+<fullyQualifiedTypeName name="DesignPatter.tpEtat.Etat4"/>
+<fullyQualifiedTypeName name="DesignPatter.tpEtat.MachineTuring"/>
+<fullyQualifiedTypeName name="DesignPattern.tpFabriqueAbstraite.GameFactory"/>
+<fullyQualifiedTypeName name="DesignPattern.tpFabriqueAbstraite.Mechant"/>
+<fullyQualifiedTypeName name="DesignPattern.tpFabriqueAbstraite.CryptonMan"/>
+<fullyQualifiedTypeName name="DesignPattern.tpFabriqueAbstraite.Superman"/>
+</qualifiedTypeNameHistroy>

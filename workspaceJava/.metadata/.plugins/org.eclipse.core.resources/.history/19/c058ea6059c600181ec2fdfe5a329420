@@ -1,0 +1,5 @@
+package DesignPattern.tpFabriqueAbstraite;
+
+public abstract class Mechant {
+	public abstract void seBattre();
+}

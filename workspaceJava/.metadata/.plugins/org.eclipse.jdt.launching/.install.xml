@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-    <entry loc="/usr/lib/jvm/java-11-openjdk-amd64" stamp="1534926167769"/>
+<entry loc="/usr/lib/jvm/java-8-oracle" stamp="1526651736000"/>
+<entry loc="/home/anonymous/Téléchargements/jdk-10.0.2" stamp="1538381543000"/>
+<entry loc="/usr/lib/jvm/java-11-openjdk-amd64" stamp="1534926167769"/>
 </dirs>
