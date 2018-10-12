@@ -1,13 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-    <channel>
-        <title>Code Recommenders In-IDE News</title>
-        <link>https://www.eclipse.org/recommenders/</link>
-        <description>The latest news about Code Recommenders, delivered to your Eclipse IDE</description>
-        <item>
-          <title>Insert Knowledge Here - A Guide to Intelligent Code Completion Using Eclipse Code Recommenders</title>
-          <link>https://medium.com/codetrails/insert-knowledge-here-a2f71c2862d2?utm_source=rss-eclipse&amp;utm_medium=eclipse&amp;utm_campaign=cc</link>
-          <pubDate>Tue, 10 Oct 2017 16:00:00 GMT</pubDate>
-        </item>
-  </channel>
-</rss>
+<html>
+<title>Connexion à Internet</title>
+<body>
+<form name="redirect" action="https://portail.va-solutions.fr/login.php" method="get">
+<input type="hidden" name="chap-id" value="">
+<input type="hidden" name="chap-challenge" value="">
+<input type="hidden" name="nasid" value="lafleuriaye">
+<input type="hidden" name="res" value="notyet">
+<input type="hidden" name="mk" value="1">
+<input type="hidden" name="mac" value="4C:CC:6A:82:42:FD">
+<input type="hidden" name="ip" value="10.51.0.99">
+<input type="hidden" name="username" value="">
+<input type="hidden" name="link-login" value="https://hotspot.va-solutions.fr/login?dst=http%3A%2F%2Fwww.eclipse.org%2Frecommenders%2Ffeeds%2Fide.rss">
+<input type="hidden" name="link-orig" value="http://www.eclipse.org/recommenders/feeds/ide.rss">
+<input type="hidden" name="error" value="">
+<input type='submit' />
+</form>
+<script language="JavaScript">
+<!--
+	document.redirect.submit();
+//-->
+</script>
+</body>
+</html>

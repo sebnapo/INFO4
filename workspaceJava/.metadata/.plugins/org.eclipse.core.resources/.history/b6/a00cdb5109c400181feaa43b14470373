@@ -1,6 +1,0 @@
-package DesignPattern.tpVisiteur.etudiant;
-
-public abstract class Visitor {
-	abstract void visit(BinExpression bex);
-	abstract void visit(Statement stmt);
-}

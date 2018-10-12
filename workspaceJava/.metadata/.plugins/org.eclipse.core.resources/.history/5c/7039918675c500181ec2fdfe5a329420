@@ -1,6 +1,0 @@
-package DesignPattern.tpFabriqueAbstraite;
-
-public abstract class Mechant {
-	private String nom;
-	public abstract void seBattre();
-}

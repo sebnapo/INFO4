@@ -1,5 +1,0 @@
-package DesignPattern.tpVisiteur.etudiant;
-
-public abstract class Visitor {
-	abstract void visit(ProgramNode prgm);
-}

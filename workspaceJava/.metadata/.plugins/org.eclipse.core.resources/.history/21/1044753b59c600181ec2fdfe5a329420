@@ -1,6 +1,0 @@
-package DesignPattern.tpFabriqueAbstraite;
-
-public interface GameFactory {
-
-	
-}

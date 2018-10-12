@@ -1,5 +1,8 @@
 package DesignPattern.tpMediateur;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -12,7 +15,7 @@ import javax.swing.JPanel;
  * @author pigeau-a
  *
  */
-public class Vue extends JFrame {
+public class Vue extends JFrame implements ActionListener {
 	
 	/**
 	 * 
@@ -39,8 +42,11 @@ public class Vue extends JFrame {
         
         JPanel q = new JPanel();
         q.add(jba);
+        jba.addActionListener(this);
         q.add(jbb);
+        jbb.addActionListener(this);
         q.add(jbc);
+        jbc.addActionListener(this);
         
         
         getContentPane().add(q, "North");
@@ -74,5 +80,26 @@ public class Vue extends JFrame {
 
 	public JLabel getC() {
 		return c;
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		if(e.getSource() == jba) {
+			a.setText(a.getText() + "a");
+			b.setText(Integer.toString(Integer.parseInt(b.getText())+1));
+			c.setText(Integer.toString(Integer.parseInt(b.getText())-1));
+		}
+		if(e.getSource() == jbb) {
+			a.setText(a.getText().substring(0,a.getText().length()-1));
+			b.setText(Integer.toString(Integer.parseInt(b.getText())+1));
+			c.setText(Integer.toString(Integer.parseInt(b.getText())+1));
+		}
+		if(e.getSource() == jbc) {
+			a.setText(a.getText().substring(0,a.getText().length()-1));
+			b.setText(Integer.toString(Integer.parseInt(b.getText())-1));
+			c.setText(Integer.toString(Integer.parseInt(b.getText())-1));
+		}
+		
 	}
 }

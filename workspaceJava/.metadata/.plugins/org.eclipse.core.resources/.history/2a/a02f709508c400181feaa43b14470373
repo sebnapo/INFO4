@@ -1,6 +1,0 @@
-package DesignPattern.tpVisiteur.etudiant;
-
-public abstract class Expression extends ProgramNode  {
-	abstract void visit(ProgramNode prgm);
-	abstract void visit(Statement stmt);
-}

@@ -1,0 +1,81 @@
+package DesignPattern.tpMediateur;
+
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+
+
+/**
+ * Vue patron Mediator
+ * @author pigeau-a
+ *
+ */
+public class Vue extends JFrame implements ActionListener {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	private JButton jba = new JButton("Bta");
+	private JButton jbb = new JButton("Btb");
+	private JButton jbc = new JButton("Btc");
+	
+	
+	private JLabel a = new JLabel("a");
+	private JLabel b = new JLabel("0");
+	private JLabel c = new JLabel("0.0");
+
+	
+	public Vue(){
+		super("Mediator?");
+		JPanel p = new JPanel();
+        p.add(a);
+        p.add(b);
+        p.add(c);
+       
+        
+        JPanel q = new JPanel();
+        q.add(jba);
+        jba.addActionListener(this);
+        q.add(jbb);
+        q.add(jbc);
+        
+        
+        getContentPane().add(q, "North");
+        getContentPane().add(p, "South");
+        setSize(400, 200);
+        setVisible(true);
+        
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+	}
+
+	public JButton getJba() {
+		return jba;
+	}
+
+	public JButton getJbb() {
+		return jbb;
+	}
+
+	public JButton getJbc() {
+		return jbc;
+	}
+
+	public JLabel getA() {
+		return a;
+	}
+
+	public JLabel getB() {
+		return b;
+	}
+
+	public JLabel getC() {
+		return c;
+	}
+}

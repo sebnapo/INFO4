@@ -1,5 +1,0 @@
-package DesignPattern.tpFabriqueAbstraite;
-
-public interface Gentil {
-	public abstract void seBattre(Mechant mechant);
-}

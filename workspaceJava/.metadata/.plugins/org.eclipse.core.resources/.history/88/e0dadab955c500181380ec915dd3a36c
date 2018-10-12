@@ -1,5 +1,0 @@
-package DesignPatter.tpEtat;
-
-public interface EtatMachine {
-	public void lireChar(String test);
-}

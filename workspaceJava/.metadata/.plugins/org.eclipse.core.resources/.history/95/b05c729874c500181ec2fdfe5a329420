@@ -1,6 +1,0 @@
-package DesignPattern.tpFabriqueAbstraite;
-
-public abstract class Gentil {
-	private String nom;
-	public abstract void seBattre();
-}
