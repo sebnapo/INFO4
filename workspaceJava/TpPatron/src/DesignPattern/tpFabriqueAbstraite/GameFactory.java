@@ -1,6 +1,5 @@
 package DesignPattern.tpFabriqueAbstraite;
 
-public abstract class GameFactory {
-
-	
+public interface GameFactory {
+	public GameFactory createGame(Gentil g, Mechant m);
 }

@@ -5,5 +5,6 @@
  * @author masterdab
  *
  */
-module patronVisiteur {
+module TpPatron {
+	requires java.desktop;
 }

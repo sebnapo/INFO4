@@ -1,13 +1,12 @@
 package DesignPattern.tpFabriqueAbstraite;
 
-public class GentilFactory extends GameFactory {
-	public GentilFactory() {
-		
-	}
+public class GentilFactory {
 	
 	public Batman createBatman() {
-		return null;
+		return new Batman();
 	}
 	
-	
+	public Superman createSuperman() {
+		return new Superman();
+	}
 }
